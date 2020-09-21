@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://rarchitgupta.github.io/randomquotegenerator/">
       Demo
     </a>
   </h3>
@@ -25,7 +25,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](public/ss.png)
 
 A random quote generator which fetches data out of the [QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/) API
 
