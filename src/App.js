@@ -14,7 +14,7 @@ function App() {
   // Fetch Single Random Quote
   const fetchData = async () => {
     const res = await fetch(
-      "https://quote-garden.herokuapp.com/api/v2/quotes/random"
+      "https://quote-garden.herokuapp.com/api/v3/quotes/random"
     );
     const json = await res.json();
     const quote = json.quote;
@@ -26,7 +26,7 @@ function App() {
   // Fetch All Quotes by Author
   const fetchDataByAuthor = async (author) => {
     const res = await fetch(
-      `https://quote-garden.herokuapp.com/api/v2/authors/${author}`
+      `https://quote-garden.herokuapp.com/api/v3/authors/${author}`
     );
     const json = await res.json();
     const quotes = json.quotes;
